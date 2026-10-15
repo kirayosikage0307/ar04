@@ -13,7 +13,9 @@
 <body>
     <a-scene embedded arjs="sourceType:webcam">
 
-    
+    <a-scene
+        cursor="rayOrigin:mouse"
+        raycaster="objects: .clickable">
 
         <a-assets>
                 <img id="suisei" src="../assets/水星.jpg" alt="">
@@ -34,7 +36,7 @@
              
             
         ">    </a-sphere>    
-
+    </a-scane>
         </a-marker>
 
         <a-entity camera></a-entity>
